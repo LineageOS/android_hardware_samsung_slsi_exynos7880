@@ -278,7 +278,7 @@ size_t NetlinkConnection::writeData(
 
     ret = sendmsg(socketDescriptor, &msg, 0);
     if (ret != NLMSG_SPACE(len)) {
-        LOG_E( "%s: could no send all data, ret=%d, errno: %d(%s)",
+        LOG_E( "%s: could no send all data, ret=%zu, errno: %d(%s)",
                __FUNCTION__, ret, errno, strerror(errno));
         ret = -1;
     } else {
