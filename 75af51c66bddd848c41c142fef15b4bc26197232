@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c70848de_eb870785",
+        "filename": "mobicore/daemon/Common/CSemaphore.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2021-09-10T10:03:25Z",
+      "side": 1,
+      "message": "Wrong\nIf sec is an int (and it is) it must be INT_MAX, not LONG_MAX",
+      "range": {
+        "startLine": 75,
+        "startChar": 19,
+        "endLine": 75,
+        "endChar": 27
+      },
+      "revId": "75af51c66bddd848c41c142fef15b4bc26197232",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
